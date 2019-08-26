@@ -25,6 +25,9 @@
 		</p>
 		<h2>JS</h2>
 		<p>
+			Original String: <span id="originalstring"></span><br />
+			Decodierter String: <span id="decodedString"></span><br />
+			Encodierter String: <span id="encodedString"></span><br />
 			<script type="text/javascript" src="../js/percentdecoder.js"></script>
 			<script type="text/javascript">
 				
@@ -41,9 +44,6 @@
 				document.getElementById("encodedString").innerHTML = encodedString;
 				
 			</script>
-			Original String: <span id="originalstring"></span><br />
-			Decodierter String: <span id="decodedString"></span><br />
-			Encodierter String: <span id="encodedString"></span><br />
 		</p>
 	</body>
 </html>
