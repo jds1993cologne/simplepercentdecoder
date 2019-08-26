@@ -1,0 +1,13 @@
+{
+  "name": "jds1993cologne/simplepercentdecoder",
+  "description": "Simple JS and PHP URI-Encoder for percent-encoding",
+  "type": "project",
+  "license": "GPL-3.0+",
+  "require" : {
+	},
+  "autoload": {
+    "files": [
+      "php/precentdecoder.php"
+    ]
+  }
+}
