@@ -13,7 +13,7 @@
 				
 				echo "Original String: " . $testString . "<br/>";
 				
-				$decodedString = decodePercentURI($textString);
+				$decodedString = decodePercentURI($testString);
 			
 				echo "Decodierter String: " . $decodedString . "<br/>";
 				
@@ -34,11 +34,11 @@
 				
 				decodedString = decodePercentURI(textString);
 			
-				document.write("Decodierter String: " . decodedString . "<br/>");
+				document.write("Decodierter String: " + decodedString + "<br/>");
 				
 				encodedString = encodePercentURI(decodedString);
 				
-				document.write("Encodierter String: " . encodedString . "<br/>");
+				document.write("Encodierter String: " + encodedString + "<br/>");
 				
 			</script>
 		</p>
