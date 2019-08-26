@@ -30,17 +30,20 @@
 				
 				var testString = "A A!A\"A#A$A%A&A'A(A)A*A+A,A-A.A/A:A;A<A=A>A?A@A[A\A]A{A|A}";
 				
-				document.write("Original String: " + testString + "<br/>"); 
+				document.getElementById("originalstring").innerHTML = testString;
 				
-				decodedString = decodePercentURI(textString);
+				decodedString = decodePercentURI(testString);
 			
-				document.write("Decodierter String: " + decodedString + "<br/>");
+				document.getElementById("decodedString").innerHTML = decodedString;
 				
 				encodedString = encodePercentURI(decodedString);
 				
-				document.write("Encodierter String: " + encodedString + "<br/>");
+				document.getElementById("encodedString").innerHTML = encodedString;
 				
 			</script>
+			Original String: <span id="originalstring"></span><br />
+			Decodierter String: <span id="decodedString"></span><br />
+			Encodierter String: <span id="encodedString"></span><br />
 		</p>
 	</body>
 </html>
