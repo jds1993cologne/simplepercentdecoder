@@ -24,7 +24,7 @@ function encodePercentURI($string){
 	$string = str_replace("%3F", "?", $string);
 	$string = str_replace("%40", "@", $string);
 	$string = str_replace("%5B", "[", $string);
-	$string = str_replace("%5C", "\", $string);
+	$string = str_replace("%5C", "\\", $string);
 	$string = str_replace("%5D", "]", $string);
 	$string = str_replace("%7B", "{", $string);
 	$string = str_replace("%7C", "|", $string);
@@ -60,7 +60,7 @@ function decodePercentURI($string){
 	$string = str_replace("?", "%3F", $string);
 	$string = str_replace("@", "%40", $string);
 	$string = str_replace("[", "%5B", $string);
-	$string = str_replace("\", "%5C", $string);
+	$string = str_replace("\\", "%5C", $string);
 	$string = str_replace("]", "%5D", $string);
 	$string = str_replace("{", "%7B", $string);
 	$string = str_replace("|", "%7C", $string);
