@@ -12,6 +12,7 @@ function encodePercentURI(string){
 	string = string.replace("%2A", "*");
 	string = string.replace("%2B", "+");
 	string = string.replace("%2C", ",");
+	string = string.replace("%2D", "-");
 	string = string.replace("%2E", ".");
 	string = string.replace("%2F", "/");
 	string = string.replace("%3A", ":");
@@ -48,6 +49,7 @@ function decodePercentURI(string){
 	string = string.replace("*", "%2A");
 	string = string.replace("+", "%2B");
 	string = string.replace(",", "%2C");
+	string = string.replace("-", "%2D");
 	string = string.replace(".", "%2E");
 	string = string.replace("/", "%2F");
 	string = string.replace(":", "%3A");
