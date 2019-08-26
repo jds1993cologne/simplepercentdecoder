@@ -7,9 +7,9 @@
 		<p>
 			<?php
 			
-				include "../percentdecoder.php";
+				include "../php/percentdecoder.php";
 				
-				$testString = "A A!A\"A#A$A%A&A'A(A)A*A+A,A-A.A/A:A;A<A=A>A?A@A[A\A]A{A|A}";
+				$testString = "A A!A\"A#A\$A%A&A'A(A)A*A+A,A-A.A/A:A;A<A=A>A?A@A[A\A]A{A|A}";
 				
 				echo "Original String: " . $testString . "<br/>";
 				
@@ -25,7 +25,7 @@
 		</p>
 		<h2>JS</h2>
 		<p>
-			<script type="text/javascript" src="../percentdecoder.js"></script>
+			<script type="text/javascript" src="../js/percentdecoder.js"></script>
 			<script type="text/javascript">
 				
 				var testString = "A A!A\"A#A$A%A&A'A(A)A*A+A,A-A.A/A:A;A<A=A>A?A@A[A\A]A{A|A}";
