@@ -7,7 +7,7 @@
 	},
   "autoload": {
     "files": [
-      "php/precentdecoder.php"
+      "php/percentdecoder.php"
     ]
   }
 }
